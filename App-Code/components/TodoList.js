@@ -50,20 +50,6 @@ function TodoList() {
         setTodos(updatedTodos);
     };
 
-    // const setModal = (todos) => {
-    //     if (newTodos.length != 0) {
-    //         var i = 0;
-    //         while (i < newTodos.length) {
-    //             if (newTodos[i] == todo.text) {
-    //                 return setModalIsOpen(true);
-    //             }
-    //             i++;
-    //         }
-    //     }
-    //     setTodos(newTodos)
-    // };
-
-
     return (
         <div>
             <h1>What's the task for Today?</h1>
